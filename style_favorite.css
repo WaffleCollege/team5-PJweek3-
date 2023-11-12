@@ -63,15 +63,6 @@ html{
 }
 
 
-
-ul{
-    display:flex;
-    background-color: #2b3412;
-    text-decoration:none;
-    margin-bottom: 0%;
-
-   }
-
 h1{ 
     font-weight: bold;
     font-size: 40px;
