@@ -8,6 +8,19 @@
   <script type="text/javascript" src="script.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="style_favorite.css">
+  <!-- Google font Icon -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Roboto:ital,wght@0,100;1,100;1,900&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  <!-- Google Fonts のコードを追加 -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  <style>
+      /* フォントを適用する要素に対して指定 */
+      .navbar-brand {
+          font-family: 'Rubik Mono One', sans-serif;
+      }
+  </style>
 </head>
 
 <body>
@@ -126,6 +139,17 @@
     </button>
   </div>
 
+<div class="main"> 
+  <div class="Name">
+    <nav class="section">
+        <li>TEAM5</li>
+        <li><a class="Yoshino" href="#Yoshino">Yoshino</a></li>
+        <li><a class="Tsutsumi" href="#Tsutsumi">Tsutsumi</a></li>
+        <li><a class="Mana" href="#Mana">Mana</a></li>
+        <li><a class="Kinari" href="#Kinari">Kinari</a></li>
+        <li><a class="Aya" href="#Aya">Aya</a></li>
+    </nav>
+  </div>
 
 <!-- 自己紹介カード -->
 <!DOCTYPE html>
@@ -154,9 +178,9 @@
     <!-- カード1 -->
     <div class="col-md-3 mb-4">
       <div class="card" id="introCard1">
-        <img src="pro_yosshi.jpg" class="card-img-top" alt="Your Photo 1">
+        <img src="pro_yosshi.png" class="card-img-top" alt="Your Photo 1">
         <div class="card-body">
-          <h5 class="card-title">Yoshino</h5>
+          <h5 class="card-title"id="Yoshino">Yoshino</h5>
           <div class="expandable-content">
             <p><strong>好きな食べ物:</strong>餃子</p>
             <p><strong>好きな動物:</strong>うさぎ</p>
@@ -171,9 +195,9 @@
     <!-- カード2 -->
     <div class="col-md-3 mb-4">
       <div class="card" id="introCard2">
-        <img src="pro_tutumi.jpg" class="card-img-top" alt="Your Photo 2">
+        <img src="pro_tutumi.png" class="card-img-top" alt="Your Photo 2">
         <div class="card-body">
-          <h5 class="card-title">Tsutsumi</h5>
+          <h5 class="card-title"id="Tsutsumi">Tsutsumi</h5>
           <div class="expandable-content">
             <p><strong>好きな食べ物:</strong>胡椒、一味、辛い物全般、タピオカ</p>
             <p><strong>好きな動物:</strong> いぬ、うさぎ</p>
@@ -188,9 +212,9 @@
     <!-- カード3 -->
     <div class="col-md-3 mb-4">
       <div class="card" id="introCard2">
-        <img src="pro_mana.jpg" class="card-img-top" alt="Your Photo 2">
+        <img src="pro_mana.png" class="card-img-top" alt="Your Photo 2">
         <div class="card-body">
-          <h5 class="card-title">Mana</h5>
+          <h5 class="card-title"id="Mana">Mana</h5>
           <div class="expandable-content">
             <p><strong>好きな食べ物:</strong> チョコ、ラーメン</p>
             <p><strong>好きな動物:</strong>柴犬</p>
@@ -202,43 +226,43 @@
       </div>
     </div>
 
-        <!-- カード4 -->
-        <div class="col-md-3 mb-4">
-          <div class="card" id="introCard2">
-            <img src="pro_kinari.jpg" class="card-img-top" alt="Your Photo 2">
-            <div class="card-body">
-              <h5 class="card-title">Kinari</h5>
-              <div class="expandable-content">
-                <p><strong>好きな食べ物:</strong>えび、ホルモン、ラーメン</p>
-                <p><strong>好きな動物:</strong> くま</p>
-                <p><strong>好きな授業:</strong> 韓国語</p>
-                <p><strong>趣味:</strong> Netflix</p>
-                <p><strong>一言:</strong> waffleを通じて成長できるように頑張ります</p>
-                  </div>
-            </div>
+    <!-- カード4 -->
+    <div class="col-md-3 mb-4">
+      <div class="card" id="introCard2">
+        <img src="pro_kinari.png" class="card-img-top" alt="Your Photo 2">
+        <div class="card-body">
+          <h5 class="card-title"id="Kinari">Kinari</h5>
+          <div class="expandable-content">
+            <p><strong>好きな食べ物:</strong>えび、ホルモン、ラーメン</p>
+            <p><strong>好きな動物:</strong> くま</p>
+            <p><strong>好きな授業:</strong> 韓国語</p>
+            <p><strong>趣味:</strong> Netflix</p>
+            <p><strong>一言:</strong> waffleを通じて成長できるように頑張ります</p>
           </div>
         </div>
-    
+      </div>
+    </div>
 
-        <!-- カード5 -->
-        <div class="col-md-3 mb-4">
-          <div class="card" id="introCard2">
-            <img src="pro_aya.jpg" class="card-img-top" alt="Your Photo 2">
-            <div class="card-body">
-              <h5 class="card-title">Aya</h5>
-              <div class="expandable-content">
-                <p><strong>好きな食べ物:</strong> 海鮮</p>
-                <p><strong>好きな動物:</strong> ねこ</p>
-                <!-- <p><strong>好きな授業:</strong> More details...</p> -->
-                <p><strong>趣味:</strong> 旅行</p>
-                <p><strong>一言:</strong> waffle collegeは大変ですが、最後まで頑張ります！</p>
-                  </div>
-            </div>
+
+    <!-- カード5 -->
+    <div class="col-md-3 mb-4">
+      <div class="card" id="introCard2">
+        <img src="pro_aya.png" class="card-img-top" alt="Your Photo 2">
+        <div class="card-body">
+          <h5 class="card-title"id="Aya">Aya</h5>
+          <div class="expandable-content">
+            <p><strong>好きな食べ物:</strong> 海鮮</p>
+            <p><strong>好きな動物:</strong> ねこ</p>
+            <!-- <p><strong>好きな授業:</strong> More details...</p> -->
+            <p><strong>趣味:</strong> 旅行</p>
+            <p><strong>一言:</strong> waffle collegeは大変ですが、最後まで頑張ります！</p>
           </div>
         </div>
-    
-
+      </div>
+    </div>
+  
   </div>
+</div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
