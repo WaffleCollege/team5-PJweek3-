@@ -115,6 +115,8 @@ a.Tsutsumi{text-decoration:none;
     padding-left:120px;
 }
 
+
+
 a.Mana{text-decoration:none;
     color:#ede7e3;  
     font-weight: 550;
@@ -318,5 +320,22 @@ p{
     padding-left:150px;
   }
 
- 
-  
+  #icon-home {
+    padding-right:10px;
+  }
+
+  .Kinari {
+    margin-top:100px;
+  } 
+
+  .Mana {
+    margin-top:100px;
+  }
+
+  .Aya {
+    margin-top:100px;
+  }
+
+  .Aya2 {
+    margin-top:100px;
+  }
