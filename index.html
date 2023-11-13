@@ -15,6 +15,7 @@
   <!-- Google Fonts のコードを追加 -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
   <style>
       /* フォントを適用する要素に対して指定 */
       .navbar-brand {
@@ -30,7 +31,12 @@
 
   <div class="container-fluid">
    
-    <a class="navbar-brand" href="index.html">Waffele team5</a>
+    <a class="navbar-brand" href="index.html">
+      <span class="material-symbols-outlined">
+        home
+        </span>
+      Waffele team5
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -48,19 +54,26 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="index_travel.html">　将来行ってみたいところ</a>
+            <a class="nav-link" href="index_travel.html">Travel</a>
           </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="index_interest.html">　今熱中しているもの・こと</a>
+          <a class="nav-link" href="index_interest.html">Interest</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="index_favorite.html">　おすすめしたいもの・こと</a>
+          <a class="nav-link" href="index_favorite.html">Recommendation
+          </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="index_tech.html">　テックキャリアの先</a>
+          <a class="nav-link" href="index_tech.html">Future</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" ><span class="material-symbols-outlined" id="icon-mail">
+            mail
+            </span>お問い合わせ</a>
         </li>
 
 
@@ -180,6 +193,20 @@
       <div class="card" id="introCard1">
         <img src="pro_yosshi.png" class="card-img-top" alt="Your Photo 1">
         <div class="card-body">
+          <div id="icon-insta">
+          <span class="material-symbols-outlined">
+            favorite
+            </span>
+            <span class="material-symbols-outlined">
+              chat_bubble
+              </span>
+              <span class="material-symbols-outlined">
+                send
+                </span>
+                <span class="material-symbols-outlined" id="icon-save">
+                  bookmark
+                  </span>
+                </div>
           <h5 class="card-title"id="Yoshino">Yoshino</h5>
           <div class="expandable-content">
             <p><strong>好きな食べ物:</strong>餃子</p>

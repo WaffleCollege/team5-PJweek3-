@@ -293,3 +293,30 @@ p{
 }
 
 
+#icon-mail {
+    padding-right:10px;
+    animation: updown 2s infinite ease-in-out;
+}
+
+@keyframes updown {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, -10px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+
+  #icon-insta {
+    padding-bottom:10px;
+  }
+
+  #icon-save {
+    padding-left:150px;
+  }
+
+ 
+  
