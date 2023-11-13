@@ -206,7 +206,7 @@ p{
 
 
 /*ボタンのスタイル */
-.btn {
+.btna {
     /* buttonタグのリセットCSS */
     border: none;
     cursor: pointer;
@@ -230,7 +230,7 @@ p{
   }
   
   /* 矢印のスタイル */
-  .btn::before {
+  .btna::before {
     content: "";
     width: 12px;
     height: 12px;
@@ -241,7 +241,7 @@ p{
   }
   
   /* ホバー時のスタイル */
-  .btn:hover {
+  .btna:hover {
     transform: scale(1.1);
   }
 
